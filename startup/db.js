@@ -8,6 +8,7 @@ module.exports = function () {
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
 			useCreateIndex: true,
+			useFindAndModify: false,
 		})
 		.then(() => console.log(`Connected to ${config.get('db')} MongoDB...`));
 };
