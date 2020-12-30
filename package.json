@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
+    "bcrypt": "^5.0.0",
     "express": "^4.17.1",
     "express-async-errors": "^3.1.1",
     "fawn": "^2.1.5",
@@ -23,6 +23,6 @@
     "winston-mongodb": "^5.0.5"
   },
   "devDependencies": {
-    "jest": "^22.2.2"
+    "jest": "^26.6.3"
   }
 }
